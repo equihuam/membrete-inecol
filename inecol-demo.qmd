@@ -2,7 +2,7 @@
 titulo: ""
 date: 2025-02-01
 folio: "22-A-01"
-#logo: images/pag_encabezado.png      # imágen para el membret
+#logo: images/pag_encabezado.png      # imágen para el membrete
 contactoemail: miguel.equihua@inecol.mx
 contactotel: extensión 4306
 idioma: es
@@ -13,7 +13,6 @@ remitente:
    - 91073 Xalapa, Veracruz, México
    - "Tel: +52 (228) 842 1800"
    - "correo@electronico.ejm"
-   - www.inecol.mx
 
 destinatario:
    - Dr. Destinatario
@@ -22,7 +21,8 @@ destinatario:
 # ------------------------------------------------  
 #firma: images/firma-Miguel-2025.png  # tu archivo
 firma: ""                             # sin estampa de firma
-tema: "Proyecto Especial Ciencia Abierta Inecol"
+asunto: "Asunto"
+tema: "Tema Interesante para el Inecol"
 saludo: Estimado Sr. Destinatario
 despedida: Reciba un cordial saludo.
 copiapara: 
@@ -40,9 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus ne
 
 ## Tema de interés
 
-
 ### Explicación
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. 
 

@@ -63,26 +63,26 @@
 
   show heading.where(level: 1): it => block(
     // guinda claro nivel 1
-    text(HSNRGuinda1, 16pt)[#v(8mm) #it.body
-                    #v(5mm)]
+    text(HSNRGuinda1, 16pt)[#v(3mm) #it.body
+                    #v(2mm)]
   )
 
   show heading.where(level: 2): it => block(
     // guinda claro nivel 2
-    text(HSNRGuinda2, 14pt)[#v(4mm) #it.body
-                    #v(2mm)]
+    text(HSNRGuinda2, 14pt)[#v(2mm) #it.body
+                    #v(1mm)]
   )
 
   show heading.where(level: 3): it => block(
     // guinda claro nivel 3
-    text(HSNRGuinda2, 12pt)[#v(4mm) #it.body
-                    #v(2mm)]
+    text(HSNRGuinda2, 12pt)[#v(2mm) #it.body
+                    #v(1mm)]
   )
 
   show heading.where(level: 4): it => block(
     // guinda claro nivel 4
-    text(HSNRGuinda2, 11pt)[#v(4mm) #it.body
-                    #v(2mm)]
+    text(HSNRGuinda2, 11pt)[#v(2mm) #it.body
+                    #v(1mm)]
   )
 
     // Color de los enlaces
@@ -135,7 +135,7 @@
 
 
   // Asunto o título
-  if asunto != "" [#text(12pt, weight: "bold")[#tema: #asunto] #v(5mm)]
+  if asunto != "" [#text(10pt, weight: "bold")[#asunto: #tema] #v(5mm)]
   else [#v(-6mm)]
 
   if saludo != "" [#text()[#saludo:] #v(5mm)] else [#v(2mm)]
@@ -188,7 +188,7 @@
 
   //---------
 
-  v(5mm)
+  v(4mm)
   
   if copiapara != none [
      #if type(copiapara) == str [#text(8pt)[ccp: #copiapara #v(-1mm)]
@@ -199,8 +199,6 @@
                 ]
      ]
   ]
-
-  apendice
 
   if anexo != none [
     #text(8pt)[Anexo(s):
