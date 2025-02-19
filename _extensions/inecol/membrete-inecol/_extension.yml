@@ -1,0 +1,33 @@
+title: membrete-inecol
+author: Miguel Equihua
+version: 0.1.0
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    typst:
+      font-paths: fonts
+      logo: "inecol-membrete.png"
+      logoAncho: 190mm
+      logoSubir: 10mm
+      logoPie: "inecol-pie.png"
+      firma: "firma-inecol.png"
+      contacto: "email-de contacto"
+      firmAncho: 165mm
+      lang: es
+      date-format: "DD.MM.YYYY"
+      numbering: "1."
+      number-align: center
+      font: "Times New Roman"
+      font-size: 11pt
+      paper: us-letter
+      footer-pre: "página"
+      subjectword: "Asunto"
+      attachments: "Anexo(s)"
+      margin:
+        top: 40mm
+        bottom: 45mm
+        right: 25mm
+        left: 25mm
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ

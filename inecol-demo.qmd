@@ -1,0 +1,52 @@
+---
+titulo: ""
+date: 2025-02-01
+folio: "22-A-01"
+#logo: images/pag_encabezado.png      # imágen para el membret
+contactoemail: miguel.equihua@inecol.mx
+contactotel: extensión 4306
+idioma: es
+
+remitente:
+   - Dr. Remitente
+   - Carretera antigua a Coatepec 351
+   - 91073 Xalapa, Veracruz, México
+   - "Tel: +52 (228) 842 1800"
+   - "correo@electronico.ejm"
+   - www.inecol.mx
+
+destinatario:
+   - Dr. Destinatario
+   - Área de Trabajo
+   - Institución
+# ------------------------------------------------  
+#firma: images/firma-Miguel-2025.png  # tu archivo
+firma: ""                             # sin estampa de firma
+tema: "Proyecto Especial Ciencia Abierta Inecol"
+saludo: Estimado Sr. Destinatario
+despedida: Reciba un cordial saludo.
+copiapara: 
+  - alguién
+attachment:
+  - anexo 1
+  - anexo 2
+format:
+  membrete-inecol-typst
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. Suspendisse placerat massa in sollicitudin pharetra. Morbi in lorem non sem placerat fringilla ac quis risus. Cras quis consequat lectus. Pellentesque mollis tellus sit amet nulla tempus cursus. 
+
+| 
+
+## Tema de interés
+
+
+### Explicación
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. 
+
+1. Lorem ipsum dolor sit amet.
+2. Consectetur adipiscing elit. 
+3. Morbi sit amet lacus nec erat tristique posuere. 
+
