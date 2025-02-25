@@ -41,7 +41,8 @@
 
   // Font base
   set text(font: "Noto Sans", 10pt)
-  
+  set text(lang: idioma)
+
   // sangría en listas
   set list(indent: 10pt)
   set enum(indent: 10pt)
@@ -69,52 +70,54 @@
 
   show heading.where(level: 2): it => block(
     // guinda claro nivel 2
-    text(HSNRGuinda2, 14pt)[#v(2mm) #it.body
-                    #v(1mm)]
+    text(HSNRGuinda2, 14pt)[#v(2mm) #it.body #v(1mm)]
   )
 
   show heading.where(level: 3): it => block(
     // guinda claro nivel 3
-    text(HSNRGuinda2, 12pt)[#v(2mm) #it.body
-                    #v(1mm)]
+    text(HSNRGuinda2, 12pt)[#v(2mm) #it.body #v(1mm)]
   )
 
   show heading.where(level: 4): it => block(
     // guinda claro nivel 4
-    text(HSNRGuinda2, 11pt)[#v(2mm) #it.body
-                    #v(1mm)]
+    text(HSNRGuinda2, 11pt)[#v(2mm) #it.body #v(1mm)]
   )
 
-    // Color de los enlaces
-    show link: set text(fill: rgb("6c932c"), weight: "bold", style: "oblique")
+  // Color de los enlaces
+  show link: set text(fill: rgb("6c932c"), weight: "bold", style: "oblique")
     
-    // Define tamaño de página y márgenes
-    let contactoemail = contactoemail.replace("\\", "")
-    let contactotel = contactotel.replace("\\", "")
-    
-    set page(
-        paper: paper,
-        margin: (
-            top: mtop,
-            bottom: mbottom,
-            left: mleft,
-            right: mright
-        ),
-        numbering: numerar,
-        number-align: numero-alinea,
-        header: align(center)[#image(logo_path, width: logoAncho)],
-        header-ascent: logoSubir,
-        footer: block()[#align(center)[#image(logoPie_path, width: logoAncho)]
-                #text(8pt, HSNRGuinda3)[
-                      #v(-8.5mm) #h(42mm)
-                      #contactoemail \- #contactotel]
-                #align(right)[#text(9pt, HSNRGuinda3)[
-                     página #context counter(page).display("1 de 1", both: true)
-                     ]
-                  ]
+  // Define tamaño de página y márgenes
+  let contactoemail = contactoemail.replace("\\", "")
+  let contactotel = contactotel.replace("\\", "")
+  
+  set page(
+      paper: paper,
+      margin: (
+          top: mtop,
+          bottom: mbottom,
+          left: mleft,
+          right: mright
+      ),
+      numbering: numerar,
+      number-align: numero-alinea,
+      header: align(center)[#image(logo_path, width: logoAncho)],
+      header-ascent: logoSubir,
+      footer: block()[#align(center)[#image(logoPie_path, width: logoAncho)]
+              #text(8pt, HSNRGuinda3)[
+                    #v(-8.5mm) #h(42mm)
+                    #contactoemail \- #contactotel]
+              #align(right)[#text(9pt, HSNRGuinda3)[
+                   página #context counter(page).display("1 de 1", both: true)
+                   ]
                 ]
+              ]
   )
 
+  // fecha
+
+  v(-4mm)
+  align(right)[#fecha]
+  v(5mm)
 
   // Destinatario
   //------------

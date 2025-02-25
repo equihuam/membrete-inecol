@@ -3,7 +3,7 @@
     titulo: "$titulo$",
     contactoemail: "$contactoemail$",
     contactotel: "$contactotel$",
-    idioma: "$lang$",
+    idioma: "$idioma$",
     logo: "$logo$",
     logoAncho: $logoAncho$,
     logoSubir: $logoSubir$,

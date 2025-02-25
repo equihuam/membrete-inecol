@@ -1,6 +1,7 @@
 ---
 titulo: ""
-date: 2025-02-01
+fecha: Xalapa, Ver., 1, feberero 2025
+
 folio: "22-A-01"
 #logo: images/pag_encabezado.png      # imágen para el membrete
 contactoemail: miguel.equihua@inecol.mx
@@ -26,7 +27,7 @@ tema: "Tema Interesante para el Inecol"
 saludo: Estimado Sr. Destinatario
 despedida: Reciba un cordial saludo.
 copiapara: 
-  - alguién
+  - alguien que debe saber de esto.
 attachment:
   - anexo 1
   - anexo 2
@@ -34,7 +35,7 @@ format:
   membrete-inecol-typst
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. Suspendisse placerat massa in sollicitudin pharetra. Morbi in lorem non sem placerat fringilla ac quis risus. Cras quis consequat lectus. Pellentesque mollis tellus sit amet nulla tempus cursus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. Suspendisse placerat massa in sollicitudin pharetra.
 
 | 
 
