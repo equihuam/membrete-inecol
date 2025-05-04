@@ -61,7 +61,6 @@
   let HSNRGuinda3 = rgb("4D182A")
 
   // Color de los títulos (guinda)
-
   show heading.where(level: 1): it => block(
     // guinda claro nivel 1
     text(HSNRGuinda1, 16pt)[#v(3mm) #it.body

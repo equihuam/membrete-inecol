@@ -1,5 +1,4 @@
 #show: membrete-inecol.with(
-
     titulo: "$titulo$",
     contactoemail: "$contactoemail$",
     contactotel: "$contactotel$",
