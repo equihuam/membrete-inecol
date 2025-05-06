@@ -8,7 +8,7 @@
     logo: none,
     logoAncho: none,
     logoSubir: none,
-    logoPie: none,
+    logo Pie: none,
     firma: none,
     firmAncho: none,
     apendice: none,
