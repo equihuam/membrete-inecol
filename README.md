@@ -1,1 +1,1 @@
-quarto install extension pandoc-ext/membrete-inecol
+quarto install extension equihuam/membrete-inecol
