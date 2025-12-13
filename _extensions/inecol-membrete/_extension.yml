@@ -6,11 +6,11 @@ contributes:
   formats:
     typst:
       font-paths: fonts
-      logo: "inecol-membrete.png"
+      logo: "img/inecol-membrete.png"
       logoAncho: 190mm
       logoSubir: 10mm
-      logoPie: "inecol-pie.png"
-      firma: "firma-inecol.png"
+      logoPie: "img/inecol-pie.png"
+      firma: "img/firma-inecol.png"
       contacto: "email-de contacto"
       firmAncho: 165mm
       lang: es

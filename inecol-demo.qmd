@@ -3,9 +3,9 @@ titulo: ""
 fecha: Xalapa, Ver., 1, feberero 2025
 
 folio: "22-A-01"
-#logo: images/pag_encabezado.png      # imágen para el membrete
-contactoemail: miguel.equihua@inecol.mx
-contactotel: extensión 4306
+#logo: img/pag_encabezado.png      # imágen para el membrete
+contactoemail: remitente@inecol.mx
+contactotel: extensión 9999
 idioma: es
 
 remitente:
@@ -19,9 +19,9 @@ destinatario:
    - Dr. Destinatario
    - Área de Trabajo
    - Institución
-# ------------------------------------------------  
-#firma: images/firma-Miguel-2025.png  # tu archivo
-firma: ""                             # sin estampa de firma
+
+#firma: img/firma.png      # tu archivo
+firma: ""                  # sin estampa de firma
 asunto: "Asunto"
 tema: "Tema Interesante para el Inecol"
 saludo: Estimado Sr. Destinatario
@@ -32,12 +32,10 @@ attachment:
   - anexo 1
   - anexo 2
 format:
-  membrete-inecol-typst
+   inecol-membrete-typst: default
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus nec erat tristique posuere. Pellentesque et orci massa. Proin malesuada consequat orci a euismod. Vestibulum tincidunt augue vitae vestibulum rhoncus. Suspendisse quis erat et urna facilisis pellentesque. Sed convallis iaculis molestie. Suspendisse placerat massa in sollicitudin pharetra.
-
-| 
 
 ## Tema de interés
 
@@ -47,5 +45,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus ne
 
 1. Lorem ipsum dolor sit amet.
 2. Consectetur adipiscing elit. 
-3. Morbi sit amet lacus nec erat tristique posuere. 
 

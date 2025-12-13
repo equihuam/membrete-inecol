@@ -8,7 +8,7 @@
     logo: none,
     logoAncho: none,
     logoSubir: none,
-    logo Pie: none,
+    logoPie: none,
     firma: none,
     firmAncho: none,
     apendice: none,
@@ -173,7 +173,7 @@
     #let remdatos = remitente.slice(1)
     #let remnombre = remnombre.replace(".~", ". ")
 
-    #block[
+    #align(center, block[
        #v(5mm)
        #text(11pt, weight: "extrabold")[
          #remnombre
@@ -184,7 +184,7 @@
                 #rem #v(-2mm)
               ]
           ]
-      ]
+    ])
 
   ] else [#v(-40mm)]
 
