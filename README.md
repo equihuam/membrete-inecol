@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Inecol-membrete Format
 
 ## Installing
@@ -15,3 +16,6 @@ that you can use as a starting place for your document.
 
 _TODO_: Describe how to use your format.
 
+=======
+quarto install extension equihuam/membrete-inecol
+>>>>>>> 79ef6bfdcd9ace8697cee1240d158fac7d50ede7
